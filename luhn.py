@@ -21,7 +21,7 @@ def luhn(cardno):
   
 if __name__=="__main__":
      
-    cardno = input()
+    cardno = input("Enter your credit card number..")
      
     if (luhn(cardno)):
         print("This is a valid credit card")
